@@ -26,7 +26,7 @@ A total conversion project that rebuilds the conspiratorial opening and structur
 
 [![Syphon Filter PSX](https://raw.githubusercontent.com/igiteam/soldier-of-fortune-2000-syphon-filter-psx/refs/heads/main/syphon-filter-psx.png)](https://vimm.net/vault/50771)
 
-[![Soldier of Fortune 2000](https://raw.githubusercontent.com/igiteam/soldier-of-fortune-2000-syphon-filter-psx/refs/heads/main/soldier-of-fortune-01.jpg)](https://archive.org/details/soldier-of-fortune-media)
+[![Soldier of Fortune 2000](https://raw.githubusercontent.com/igiteam/soldier-of-fortune-2000-syphon-filter-psx/refs/heads/main/soldier-of-fortune.jpg)](https://archive.org/details/soldier-of-fortune-media)
 
 
 ---
