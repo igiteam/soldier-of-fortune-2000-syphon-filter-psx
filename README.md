@@ -11,12 +11,22 @@ A total conversion project that rebuilds the conspiratorial opening and structur
 ## Base of the gameplay
 [![Soldier of Fortune 2000](https://img.youtube.com/vi/wq82etLV0a8/maxresdefault.jpg)](https://ytembed.macosxjs.com/?d3E4MmV0TFYwYTg)
 
-[![Syphon Filter 1 PC PORT](https://img.youtube.com/vi/GabC9EFwnH4/maxresdefault.jpg)](https://ytembed.macosxjs.com/?R2FiQzlFRnduSDQ)
+[![Syphon Filter 1 PC PORT](https://i.ytimg.com/vi/jcesWFG7zU4/maxresdefault.jpg)](https://ytembed.macosxjs.com/?R2FiQzlFRnduSDQ)
+
+[![SOF Editor](https://raw.githubusercontent.com/igiteam/soldier-of-fortune-2000-syphon-filter-psx/refs/heads/main/sof_editor.png)[https://www.moddb.com/games/soldier-of-fortune/downloads/worldspawn-example]
 
 ## Reference Links
 [https://archive.org/details/soldier-of-fortune-media](https://archive.org/details/soldier-of-fortune-media)
 
 [https://vimm.net/vault/50771](https://vimm.net/vault/50771)
+
+[https://www.moddb.com/games/soldier-of-fortune/tutorials](https://www.moddb.com/games/soldier-of-fortune/tutorials)
+
+[https://www.moddb.com/games/soldier-of-fortune/downloads](https://www.moddb.com/games/soldier-of-fortune/downloads)
+
+[![Syphon Filter PSX](https://raw.githubusercontent.com/igiteam/soldier-of-fortune-2000-syphon-filter-psx/refs/heads/main/syphon-filter-psx.png)](https://vimm.net/vault/50771)
+
+[![Soldier of Fortune 2000](https://raw.githubusercontent.com/igiteam/soldier-of-fortune-2000-syphon-filter-psx/refs/heads/main/soldier-of-fortune-01.jpg)](https://archive.org/details/soldier-of-fortune-media)
 
 
 ---
