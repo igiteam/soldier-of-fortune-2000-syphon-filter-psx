@@ -13,7 +13,7 @@ A total conversion project that rebuilds the conspiratorial opening and structur
 
 [![Syphon Filter 1 PC PORT](https://i.ytimg.com/vi/jcesWFG7zU4/maxresdefault.jpg)](https://ytembed.macosxjs.com/?R2FiQzlFRnduSDQ)
 
-[![SOF Editor](https://raw.githubusercontent.com/igiteam/soldier-of-fortune-2000-syphon-filter-psx/refs/heads/main/sof_editor.png)[https://www.moddb.com/games/soldier-of-fortune/downloads/worldspawn-example]
+[![SOF Editor](https://raw.githubusercontent.com/igiteam/soldier-of-fortune-2000-syphon-filter-psx/refs/heads/main/sof_editor.png)](https://www.moddb.com/games/soldier-of-fortune/downloads/worldspawn-example)
 
 ## Reference Links
 [https://archive.org/details/soldier-of-fortune-media](https://archive.org/details/soldier-of-fortune-media)
