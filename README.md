@@ -1,6 +1,34 @@
-# openMERC
+# soldier-of-fortune-2000-syphon-filter-psx
+## Soldier of Fortune 2000 - Syphon Filter Remake
+A total conversion project that rebuilds the conspiratorial opening and structure of *Syphon Filter* (1999) inside the grungy, early-2000s first-person engine and look of *Soldier of Fortune* (2000), built on the open-sourced Quake II engine source.
 
-**English** | [Русский](#русский)
+## Github Treeview
+[https://treegit.macosxjs.com/?url=igiteam/soldier-of-fortune-2000-syphon-filter-psx](https://treegit.macosxjs.com/?url=igiteam/soldier-of-fortune-2000-syphon-filter-psx)
+
+## Github Tree Api Direct JSON
+[https://api.github.com/repos/igiteam/soldier-of-fortune-2000-syphon-filter-psx/git/trees/main?recursive=1](https://api.github.com/repos/igiteam/soldier-of-fortune-2000-syphon-filter-psx/git/trees/main?recursive=1)
+
+## Base of the gameplay
+[![Soldier of Fortune 2000](https://img.youtube.com/vi/wq82etLV0a8/maxresdefault.jpg)](https://ytembed.macosxjs.com/?d3E4MmV0TFYwYTg)
+
+[![Syphon Filter 1 PC PORT](https://img.youtube.com/vi/GabC9EFwnH4/maxresdefault.jpg)](https://ytembed.macosxjs.com/?R2FiQzlFRnduSDQ)
+
+## Reference Links
+[https://archive.org/details/soldier-of-fortune-media](https://archive.org/details/soldier-of-fortune-media)
+
+[https://vimm.net/vault/50771](https://vimm.net/vault/50771)
+
+
+---
+
+## WS11WineCX20.0.4 (MacOSX Big Sur 32bit)
+[WS11WineCX20.0.4.tar.7z](https://github.com/vitor251093/porting-kit-engines/releases/download/wineskin/WS11WineCX20.0.4.tar.7z)
+
+[![wine windows games on macosx](https://raw.githubusercontent.com/igiteam/igi1-macbook-3d-workstation/refs/heads/main/wine-engine-config.png)](https://github.com/igiteam/wine_engines)
+
+---
+
+# openMERC
 
 openMERC is an open-source (GPL v2) engine for **Soldier of Fortune** (Raven Software, 2000). It is written
 clean-room on top of [Yamagi Quake II](https://github.com/yquake2/yquake2) and runs the original game data on
@@ -180,155 +208,39 @@ or Activision.
 
 ---
 
-## Русский
 
-openMERC - открытый (GPL v2) движок для **Soldier of Fortune** (Raven Software, 2000). Он написан по методу
-«чистой комнаты» на основе [Yamagi Quake II](https://github.com/yquake2/yquake2) и запускает данные оригинальной
-игры на современных системах: любое разрешение, широкоформатные HUD и меню, рендерер OpenGL 3.2 с современными
-эффектами и звук на OpenAL.
+## Dev Environment
 
-> **Проект в разработке.** Движок, графика, звук и меню работают; собственная игровая логика openMERC (режим B)
-> загружает и запускает все 32 карты кампании, но ещё не доделана. Ошибки будут - см. [docs/KNOWN_ISSUES.md](docs/KNOWN_ISSUES.md).
+**Official White Wii Remote With Nunchuk — Tested And Working — £14.99**
+[https://www.ebay.co.uk/itm/800847189353](https://www.ebay.co.uk/itm/800847189353)
 
-### Скачать
+**Infrared Sensor Bar USB for Wii Emulator Remote Motion Detection Setup — £6.69**
+[https://www.ebay.co.uk/itm/227423830875](https://www.ebay.co.uk/itm/227423830875)
 
-Готовые сборки для Windows (`openMERC-<версия>-win32.zip`) и Linux x86_64 (`openMERC-<версия>-linux-x86_64.tar.gz`)
-лежат на странице [Releases](https://github.com/sidreshot/openMERC/releases). Архив распаковывается прямо в папку
-Soldier of Fortune; остальное - в описании релиза и в `openMERC-README.txt`. Обе сборки собираются из коммита с
-тегом [сборочным workflow](.github/workflows/build.yml).
+**Apple MacBook Pro Retina 15in (2014) i7 2.8GHz 16GB 1TB SSD GT 750M — £120.30**
+[https://www.ebay.co.uk/itm/800844561513](https://www.ebay.co.uk/itm/800844561513)
 
-### Нужна своя копия игры
+**WS11WineCX20.0.4 (Wine engine)**
+[https://igiteam.github.io/wine_engines/](https://igiteam.github.io/wine_engines/)
 
-В openMERC **нет ни одного файла оригинальной игры**. Нужна своя лицензионная копия Soldier of Fortune (версия
-GOG или диск с патчем 1.07f). openMERC читает `.pak`-файлы из вашей установки и ничего в неё не пишет.
+**Official Genuine Sony PS3 PlayStation 3 DualShock 3 Wireless Controller Black — £19.99**
+[https://www.ebay.co.uk/itm/840031043465](https://www.ebay.co.uk/itm/840031043465)
 
-### Состояние
+**Amazon Basics 4K HDMI Cable 3m — 18Gbps High Speed with Ethernet, 4K@60Hz, 2160p — £8.44**
+[https://www.ebay.co.uk/itm/327352257557](https://www.ebay.co.uk/itm/327352257557)
 
-- **Движок**: загружаются и рисуются все 75 стандартных карт; модели Ghoul, туман, ландшафт, небо, эффекты;
-  сохранения и переходы между уровнями; консоль доступна всегда.
-- **Графика**: по умолчанию максимальное качество; bloom только на светящихся поверхностях, объёмный туман, мягкие
-  тени от солнца, попиксельные динамические источники света, мягкие частицы и другие эффекты, у каждого свой
-  переключатель в меню «Видео» (часть ещё дорабатывается).
-- **Меню**: новое широкоформатное меню со свободными шрифтами (Play, JetBrains Mono), которые масштабируются под
-  любое разрешение и поддерживают латиницу и кириллицу. Родительского замка нет, насилие всегда на максимуме.
-- **Перемещение**: движение игрока Quake II с отличиями SoF.
-- **Два режима**:
-  - *режим A* - движок openMERC + оригинальные `gamex86.dll` / `player.dll` из вашей установки (сейчас самая
-    полная кампания);
-  - *режим B* - всё открытое (движок, рендерер, звук, игровой модуль и модуль игрока). Все 32 карты кампании
-    загружаются и работают, но ИИ противников, часть скриптовых сцен и детали оружия ещё не доделаны.
-- **Сетевая игра**: серверы и клиенты openMERC играют друг с другом. С оригинальными серверами, клиентами и демо
-  1.07f openMERC **не совместим** (см. «Чистая комната»), режима совместимости не будет.
-- **Платформы**: Windows (32-битный движок на 64-битной Windows 10/11). Linux x86_64
-  (64 бита, только собственные игровые модули OpenMerc): распакуйте `openMERC-<версия>-linux-x86_64.tar.gz`
-  в папку игры и запустите `./openMerc`; сборка: [docs/BUILD-linux.md](docs/BUILD-linux.md).
+**wiimote_nunchuk_macosx**
+[https://github.com/igiteam/wiimote-nunchuk](https://github.com/igiteam/wiimote-nunchuk)
 
-### Снимки
+**xbox360_input_gui_py**
+[https://github.com/igiteam/xbox360_input_gui_py](https://github.com/igiteam/xbox360_input_gui_py)
 
-Одни и те же места, 2560x1440. Слева оригинальная отрисовка: свои текстуры и карты освещения, плоское стекло,
-старая вода с warp, без HDR, без bloom, без современного дождя, теней и постобработки. Справа все настройки
-графики на максимуме. Каждая выключается отдельно в меню «Видео».
+**logitec_mx_mouse_3_macos**
+[https://github.com/igiteam/logitec_mx_mouse_3_macos](https://github.com/igiteam/logitec_mx_mouse_3_macos)
 
-| Оригинал | Все настройки на максимуме |
-|---|---|
-| ![Токио. Плоское тонированное окно, за ним неон.](docs/screenshots/tokyo-window-original.jpg) | ![Токио. То же окно: прозрачное стекло, по нему идёт дождь.](docs/screenshots/tokyo-window-high.jpg) |
-| ![Токио, крыша. Бассейн - старая поверхность с warp.](docs/screenshots/tokyo-pool-original.jpg) | ![Токио, крыша. Тот же бассейн, с отражениями.](docs/screenshots/tokyo-pool-high.jpg) |
-| ![Коридор метро, плоский свет, дробовик.](docs/screenshots/subway-original.jpg) | ![Тот же коридор. Лампы светятся, углы заполнены.](docs/screenshots/subway-high.jpg) |
+**igi1-macbook-3d-workstation**
+[https://github.com/igiteam/igi1-macbook-3d-workstation](https://github.com/igiteam/igi1-macbook-3d-workstation)
 
-Оба столбца рисует openMERC из одних и тех же данных игры. Левый - оригинальный путь, насколько порт
-вообще может совпасть с картинкой 2000 года.
+---
 
-### Переписывание эффектов
 
-Все эффекты игры перерисовываются на современных технологиях. Когда, где и какого размера появляется эффект, по-прежнему
-решают данные самой игры; меняется только отрисовка, и каждый новый эффект можно вернуть к оригинальному виду.
-Подробности, эффекты каждой группы и правила: [docs/EFFECTS.md](docs/EFFECTS.md).
-
-**Прогресс: сделано 19 из 41.**
-
-Сделано:
-
-- [x] Динамический свет выстрелов, огня и взрывов
-- [x] Дым и пыль освещаются уровнем и динамическим светом
-- [x] Клубы дыма освещаются как объём
-- [x] Огненный шар взрыва без граней
-- [x] Мягкие частицы у стен и пола
-- [x] Пулевые отверстия с глубиной
-- [x] Мокрая кровь, лужи крови под телами
-- [x] Ореолы ламп через bloom вместо нарисованных спрайтов
-- [x] Дождь и гроза со светом молний
-- [x] Вода: волны, отражения, преломление, пена, туман над водой и под ней
-- [x] Всплески в воде: брызги и круги на поверхности
-- [x] Попадание как тёмно-красная виньетка
-- [x] Ночное видение как электронно-оптический преобразователь
-- [x] Контактные тени тел вместо круглого пятна
-- [x] Стекло с преломлением, отражениями и грязью
-- [x] Гроза: светящиеся облака, засветка, свет через окна, гром каждый раз
-- [x] Капли дождя на окнах
-- [x] Туман на картах попиксельный вместо старого повершинного
-- [x] B1. Галерея эффектов: снимки до и после, цена кадра
-
-Будет сделано:
-
-- [ ] B2. Эффекты как источники света в HDR и bloom
-- [ ] B3. Живое пламя и дым, дрожание горячего воздуха
-- [ ] B4. Быстрые частицы, вытянутые по движению
-- [ ] B5. Дешёвый путь для Low и телефонов
-- [ ] E1. Огонь, горящие тела, фосфор, фальшфейеры
-- [ ] E2. Огнемёт
-- [ ] E3. Взрывы
-- [ ] E4. Следы копоти
-- [ ] E5. Искры
-- [ ] E6. Попадания по материалам: пыль, осколки, стекло
-- [ ] E7. Обломки и куски тел
-- [ ] E8. Трассеры
-- [ ] E9. Снаряды и шлейфы
-- [ ] E10. Вспышки выстрелов и гильзы
-- [ ] E11. MPG, электрические дуги, лучи
-- [ ] E12. Кровь
-- [ ] E13. Струи жидкостей
-- [ ] E14. Остальное на воде: капли, лужи, падающие в воду обломки
-- [ ] E15. Дым и пар на уровнях
-- [ ] E16. Лава и расплавленный металл
-- [ ] E17. Дыхание на морозе, возрождение и телепорт
-- [ ] C1. Персонажи по-настоящему говорят: рот открывается и двигается с голосом, без подмены текстуры лица
-
-### Сборка (Windows)
-
-Нужны Visual Studio 2022 Build Tools (MSVC **x86**), CMake 3.20+, Ninja, vcpkg (classic) с `sdl3:x86-windows` и
-`openal-soft:x86-windows`, Python 3.10+. Укажите `VCVARSALL` и `OM_VCPKG` (корень vcpkg), при желании
-`OM_BUILD_DIR`. Из корня репозитория в `cmd.exe`:
-
-```
-tools\build\build-msvc.cmd x86 Release
-modules\sound\build.cmd Release
-game\build.cmd Release
-player\build.cmd Release
-```
-
-Соберите папку игры: файлы движка и звуковой модуль рядом, `gamex86.dll`, `player.dll` и `zz_openmerc.pak` в
-`base\`, сверху `dist\openMERC.cmd`. Запустите `openMERC.cmd`; при первом запуске он спросит папку Soldier of
-Fortune (ту, где лежит `base\pak0.pak`). Настройки, сохранения, скриншоты и логи - в `user\` рядом с запускалкой.
-Для режима A удалите `gamex86.dll` и `player.dll` из `base\` openMERC.
-
-Архив релиза: `tools\build\package-win.ps1 -Engine <папка> -Sound <папка> -Game <папка> -Player <папка> -Vcpkg <корень vcpkg>`
-собирает четыре папки сборки в `openMERC-<версия>-win32.zip` (+ `.sha256`) в раскладке релиза. Linux:
-`tools/build/build-linux.sh && tools/build/package-linux.sh` ([docs/BUILD-linux.md](docs/BUILD-linux.md)).
-
-### Непрерывная сборка
-
-[`.github/workflows/build.yml`](.github/workflows/build.yml) собирает Windows x86 (MSVC 2022, vcpkg) и Linux x86_64
-(Debian 13) на каждый push и pull request, гоняет юнит-тесты и сохраняет оба архива как артефакты. Тег `v*`
-прикладывает их к релизу этого тега.
-
-### Чистая комната
-
-См. [CLEANROOM.md](CLEANROOM.md) и [docs/LEGAL_NOTES.md](docs/LEGAL_NOTES.md). Код написан по спецификациям
-поведения, исходникам Quake II под GPL и открытой документации; кода оригинальных исполняемых файлов в проекте нет.
-Таблиц данных, скопированных из оригинальных исполняемых файлов, тоже нет, и движок никогда не читает `SoF.exe`.
-Используются только данные игры (`*.pak`) из вашей лицензионной копии.
-
-### Лицензия
-
-GPL v2 или новее, см. [LICENSE](LICENSE). Сторонние компоненты и их лицензии - в [THIRD_PARTY.md](THIRD_PARTY.md).
-Soldier of Fortune - товарный знак его владельцев; openMERC не связан с Raven Software или Activision.
